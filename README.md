@@ -26,3 +26,7 @@ CLAHE : https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.ht
 Metrics and plots (confusion matrix, accuracy and loss plots, ...) for each baseline model are located in the 'Models Metrics' folder. The metrics and plots for the image enhancement techniques are stored in separate folders named 'Median blur' and 'CLAHE'. The folder 'K-folds' contain the classification reports of all methods and all models. A summary of all classification reports for each method and each model are also available in an Excel file in the 'Metrics summary' folder.
 # Example of Notebooks
 To see how we we did our project, we recommend to look at the 'VGG19_COV_Final.ipynb' notebook as it is the notebook with more comments. All other notebooks follow the same pattern, but with small changes which depends on the method used. 
+# References(Data)
+Xingyi Yang et al. COVID-CT-Dataset: A CT Scan Dataset about COVID-19. 2020. arXiv: 2003.13865. URL: https://arxiv.org/abs/2003.13865
+
+Soares, Eduardo, Angelov, Plamen, Biaso, Sarah, Higa Froes, Michele, and Kanda Abe, Daniel. "SARS-CoV-2 CT-scan dataset: A large dataset of real patients CT scans for SARS-CoV-2 identification." medRxiv (2020). doi: https://doi.org/10.1101/2020.04.24.20078584.

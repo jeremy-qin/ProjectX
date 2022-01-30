@@ -6,6 +6,8 @@ We used two datasets for the project (COVID-CT and SARS-CoV-2). Both of them are
 https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset
 
 https://github.com/UCSD-AI4H/COVID-CT
+# Dependencies
+In the requirements.txt, we have a list of the dependencies used to run our experiments. However, note that our notebooks can simply be run in Google Colab (Pro). Many packages were already pre-installed in Colab such as Tensorflow, Numpy, Matplotlib and others.
 # Models and Code
 This repository contains all the notebooks that were ran in Google Colab Pro for the project in the 'Models' folder. For each pretrained model, we have one notebook for each method (baseline, median blur and CLAHE) as well as one notebook per model that used K-fold Cross Validation for hypothesis testing. 
 # Pretrained Models
